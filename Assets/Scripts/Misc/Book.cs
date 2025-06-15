@@ -14,7 +14,7 @@ public class Book : Item
     protected override void Use()
     {
         currentPage++;
-        Debug.Log($"Перевернули на страницу {currentPage}");
+        Debug.Log($"пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ {currentPage}");
     }
 
     protected override void EnableActions()
@@ -54,6 +54,6 @@ public class Book : Item
 
     public override string GetPromptText()
     {
-        return "Нажмите Е, чтобы взять книгу";
+        return "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ";
     }
 }
